@@ -28,7 +28,7 @@ header nav {
 header nav .nav_right-section {
     display: flex;
     list-style: none;
-    width: 250px;
+    margin-right: 10px;
     height: auto;
     list-style: none;
     justify-content: center;
@@ -39,4 +39,22 @@ header nav .nav_right-section li a {
     margin-right: 10px;
     color: #000;
     font-size: 1.3rem;
+}
+
+nav .nav_right-section .nav_icon {
+    background-image: url("https://img.icons8.com/material/344/circled-menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+
+nav .nav_right-section .nav_photo img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
 }
