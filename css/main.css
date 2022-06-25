@@ -103,7 +103,7 @@ main .main-input .main-input-container:hover {
 }
 
 main .main-input .main-input-container .search-icon {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -112,7 +112,7 @@ main .main-input .main-input-container .search-icon {
 } 
 
 main .main-input .main-input-container .micro-icon {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-image: url('https://www.cuecamp.com/wp-content/uploads/2019/11/Google_mic.svg_.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
