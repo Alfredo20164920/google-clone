@@ -89,9 +89,32 @@ main .main-input .main-input-container input {
     height: 40px;
     border: none;
     outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    text-align: start;
 }
 
 main .main-input .main-input-container:hover {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-color: #def1e500;
+}
+
+main .main-input .main-input-container .search-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+} 
+
+main .main-input .main-input-container .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
 }
