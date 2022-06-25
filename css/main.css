@@ -58,3 +58,88 @@ nav .nav_right-section .nav_photo img {
     height: 32px;
     margin-left: 10px;
 }
+
+main {
+    margin-top: 150px;
+    text-align: center;   
+}
+
+main .main-logo,
+main .main-input,
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input .main-input-container {
+    width: 525px;
+    border-radius: 150px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input .main-input-container input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    text-align: start;
+}
+
+main .main-input .main-input-container:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-color: #def1e500;
+}
+
+main .main-input .main-input-container .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+} 
+
+main .main-input .main-input-container .micro-icon {
+    background-image: url('https://www.cuecamp.com/wp-content/uploads/2019/11/Google_mic.svg_.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-buttons div {
+    display: inline-block;   
+}
+
+main .main-buttons div button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 0 15px;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 5px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+main .main-buttons div button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 1px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
